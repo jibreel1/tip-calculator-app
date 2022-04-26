@@ -4,18 +4,15 @@
       <meta charset="UTF-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <!-- displays site properly based on user's device -->
-      <link rel="preconnect" href="https://fonts.googleapis.com" />
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-      <link
-         href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap"
-         rel="stylesheet"
-      />
       <link
          rel="icon"
          type="image/png"
          sizes="32x32"
          href="./images/favicon-32x32.png"
       />
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap" rel="stylesheet"/>
 
       <title>Frontend Mentor | Tip calculator app</title>
       <link rel="stylesheet" href="/app.css" />
@@ -40,7 +37,7 @@
          <div class="billPeople">
             <div class="bill">
                <label for="bill">Bill</label>
-               <input name="bill" type="text" placeholder="0" id="bill-input" />
+               <input name="bill" type="number" placeholder="0" id="bill-input" />
             </div>
 
             <div class="tips">
@@ -51,7 +48,7 @@
                   <div class="tip active-tip">15%</div>
                   <div class="tip">25%</div>
                   <div class="tip">50%</div>
-                  <input type="text" placeholder="Custom" id="tip-custom" />
+                  <input type="number" placeholder="Custom" id="tip-custom" />
                </div>
             </div>
 
@@ -60,7 +57,7 @@
                 <label for="people">Number of People</label>
                 <div class="error">Can't be zero</div>
               </div>
-               <input name="people" type="text" placeholder="0" id="people-input" />
+               <input name="people" type="number" placeholder="0" id="people-input" />
             </div>
          </div>
 
