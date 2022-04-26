@@ -59,17 +59,17 @@ input {
    font-family: "Space Mono", monospace;
 }
 
-.bill input {
+input {
    background-image: url("/images/icon-dollar.svg");
 }
 
-.bill input[type="number"] ::-webkit-inner-spin-button,
+input[type="number"] ::-webkit-inner-spin-button,
 ::-webkit-outer-spin-button {
    -webkit-appearance: none;
    margin: 0;
 }
 
-.bill input[type="number"] {
+input[type="number"] {
    -moz-appearance: textfield;
 }
 
